@@ -8,14 +8,6 @@
   overflow: hidden;
 }
 
-/* 모바일에서 높이 조정으로 이미지 더 많이 보이기 */
-@media (max-width: 639px) {
-  .hero-section {
-    height: 70vh;
-    min-height: 70vh;
-  }
-}
-
 .hero-slide {
   position: absolute;
   inset: 0;
@@ -36,12 +28,6 @@
   object-fit: cover;
 }
 
-.hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.4);
-  z-index: 5;
-}
 
 /* Navigation Buttons */
 .nav-button {
@@ -90,19 +76,10 @@
   padding-bottom: 64px;
 }
 
+/* Back Button Position */
 .back-button {
-  display: none;
-  align-items: center;
-  color: white;
-  text-decoration: none;
-  font-size: 14px;
-  margin-bottom: 32px;
-  width: fit-content;
-  transition: color 0.3s ease;
-}
-
-.back-button:hover {
-  color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 32px;
+    width: fit-content;
 }
 
 .hero-title {
@@ -336,9 +313,6 @@
     display: flex;
   }
 
-  .back-button {
-    display: flex;
-  }
 
   .content-section {
     padding: 60px 140px;
@@ -369,6 +343,13 @@
   .image-grid {
     grid-template-columns: 1fr 1fr;
     gap: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-section {
+    height: 70vh;
+    min-height: 70vh;
   }
 }
 

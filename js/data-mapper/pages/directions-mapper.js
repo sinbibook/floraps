@@ -94,11 +94,11 @@ class DirectionsMapper extends BaseDataMapper {
             roadAddressElement.textContent = property.address;
         }
 
-        // 지번 주소 매핑 (동일하게 address 사용)
-        const lotAddressElement = this.safeSelect('[data-directions-lot-address]');
-        if (lotAddressElement && property.address) {
-            lotAddressElement.textContent = property.address;
-        }
+        // 지번 주소 매핑 - 향후 요구사항 변경 시 활성화 예정
+        // const lotAddressElement = this.safeSelect('[data-directions-lot-address]');
+        // if (lotAddressElement && property.address) {
+        //     lotAddressElement.textContent = property.address;
+        // }
 
         // 안내사항 매핑
         const noticeElement = this.safeSelect('[data-directions-notice]');
@@ -205,11 +205,11 @@ class DirectionsMapper extends BaseDataMapper {
             roadAddressElement.textContent = property.address;
         }
 
-        // 지번 주소 매핑 (마지막 주소 항목)
-        const lotAddressElement = this.safeSelect('.address-item:last-of-type .address-details p:last-child');
-        if (lotAddressElement && property.address) {
-            lotAddressElement.textContent = property.address;
-        }
+        // 지번 주소 매핑 - 향후 요구사항 변경 시 활성화 예정
+        // const lotAddressElement = this.safeSelect('.address-item:last-of-type .address-details p:last-child');
+        // if (lotAddressElement && property.address) {
+        //     lotAddressElement.textContent = property.address;
+        // }
 
         // 지도 콘텐츠 영역 주소 매핑
         const mapAddressElement = this.safeSelect('.map-content .address');
@@ -260,11 +260,39 @@ class DirectionsMapper extends BaseDataMapper {
 
         // 메타 태그 업데이트 (페이지별 SEO 적용)
         const property = this.data.property;
-        const pageSEO = property?.name ? { title: `오시는길 - ${property.name}` } : null;
+        const directionsData = this.safeGet(this.data, 'homepage.customFields.pages.directions.sections.0.hero');
+        const pageSEO = {
+            title: property?.name ? `오시는길 - ${property.name}` : 'SEO 타이틀',
+            description: directionsData?.description || property?.description || 'SEO 설명'
+        };
         this.updateMetaTags(pageSEO);
+
+        // OG 이미지 업데이트 (hero 이미지 사용)
+        this.updateOGImage(directionsData);
 
         // E-commerce registration 매핑
         this.mapEcommerceRegistration();
+    }
+
+    /**
+     * OG 이미지 업데이트 (directions hero 이미지 사용, 없으면 로고)
+     * @param {Object} directionsData - directions hero 섹션 데이터
+     */
+    updateOGImage(directionsData) {
+        if (!this.isDataLoaded) return;
+
+        const ogImage = this.safeSelect('meta[property="og:image"]');
+        if (!ogImage) return;
+
+        // 우선순위: hero 이미지 > 로고 이미지
+        if (directionsData?.images && directionsData.images.length > 0 && directionsData.images[0]?.url) {
+            ogImage.setAttribute('content', directionsData.images[0].url);
+        } else {
+            const defaultImage = this.getDefaultOGImage();
+            if (defaultImage) {
+                ogImage.setAttribute('content', defaultImage);
+            }
+        }
     }
 
     /**
