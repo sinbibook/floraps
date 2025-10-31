@@ -190,8 +190,9 @@ class RoomMapper extends BaseDataMapper {
         slidesContainer.innerHTML = '';
         if (heroOverlay) heroOverlay.style.display = '';
 
-        // sortOrder로 정렬
+        // isSelected가 true인 이미지만 필터링하고 sortOrder로 정렬
         const sortedImages = interiorImages
+            .filter(img => img.isSelected)
             .sort((a, b) => (a.sortOrder || 0) - (b.sortOrder || 0));
 
         // 슬라이드 생성
@@ -355,6 +356,34 @@ class RoomMapper extends BaseDataMapper {
     }
 
     /**
+     * 갤러리 아이템 생성 헬퍼 함수
+     * @param {Object|null} image - 이미지 객체 (없으면 null)
+     * @param {string} roomName - 객실명
+     * @returns {HTMLElement} 생성된 갤러리 아이템
+     */
+    _createGalleryItem(image, roomName) {
+        const galleryItem = document.createElement('div');
+        galleryItem.className = 'gallery-item';
+
+        const img = document.createElement('img');
+        img.loading = 'lazy';
+
+        if (image) {
+            img.src = image.url;
+            img.alt = image.description || roomName;
+            img.className = 'w-full h-full object-cover';
+            img.setAttribute('data-image-fallback', '');
+        } else {
+            img.src = ImageHelpers.EMPTY_IMAGE_SVG;
+            img.alt = '이미지 없음';
+            img.className = 'w-full h-full object-cover empty-image-placeholder';
+        }
+
+        galleryItem.appendChild(img);
+        return galleryItem;
+    }
+
+    /**
      * 객실 갤러리 매핑
      */
     mapRoomGallery() {
@@ -372,13 +401,13 @@ class RoomMapper extends BaseDataMapper {
         // room.images[0].interior 배열에서 이미지 가져오기 (hero 슬라이더와 동일한 소스)
         const interiorImages = room.images?.[0]?.interior;
 
-        // sortOrder로 정렬
+        // isSelected가 true인 이미지만 필터링하고 sortOrder로 정렬
         const sortedImages = interiorImages && interiorImages.length > 0
-            ? interiorImages.sort((a, b) => (a.sortOrder || 0) - (b.sortOrder || 0))
+            ? interiorImages.filter(img => img.isSelected).sort((a, b) => (a.sortOrder || 0) - (b.sortOrder || 0))
             : [];
 
-        // 첫 3개 이미지(0,1,2번째)를 2:1 그리드 구조로 배치
-        const firstThreeImages = sortedImages.slice(0, 3);
+        // 첫 4개 이미지(0,1,2,3번째)를 2:2 그리드 구조로 배치
+        const firstFourImages = sortedImages.slice(0, 4);
 
         // 왼쪽 컬럼 생성
         const galleryLeft = document.createElement('div');
@@ -386,53 +415,17 @@ class RoomMapper extends BaseDataMapper {
 
         // 왼쪽 컬럼: 첫 2개 이미지 (0,1번째) - 부족하면 빈 이미지로 채우기
         for (let i = 0; i < 2; i++) {
-            const galleryItem = document.createElement('div');
-            galleryItem.className = 'gallery-item';
-
-            const img = document.createElement('img');
-
-            if (firstThreeImages[i]) {
-                img.src = firstThreeImages[i].url;
-                img.alt = firstThreeImages[i].description || room.name;
-                img.className = 'w-full h-full object-cover';
-                img.loading = 'lazy';
-                img.setAttribute('data-image-fallback', '');
-            } else {
-                img.src = ImageHelpers.EMPTY_IMAGE_SVG;
-                img.alt = '이미지 없음';
-                img.className = 'w-full h-full object-cover empty-image-placeholder';
-                img.loading = 'lazy';
-            }
-
-            galleryItem.appendChild(img);
-            galleryLeft.appendChild(galleryItem);
+            galleryLeft.appendChild(this._createGalleryItem(firstFourImages[i], room.name));
         }
 
         // 오른쪽 컬럼 생성
         const galleryRight = document.createElement('div');
         galleryRight.className = 'gallery-right';
 
-        // 오른쪽 컬럼: 3번째 이미지 (2번째 인덱스) - 없으면 빈 이미지
-        const galleryItem = document.createElement('div');
-        galleryItem.className = 'gallery-item';
-
-        const img = document.createElement('img');
-
-        if (firstThreeImages[2]) {
-            img.src = firstThreeImages[2].url;
-            img.alt = firstThreeImages[2].description || room.name;
-            img.className = 'w-full h-full object-cover';
-            img.loading = 'lazy';
-            img.setAttribute('data-image-fallback', '');
-        } else {
-            img.src = ImageHelpers.EMPTY_IMAGE_SVG;
-            img.alt = '이미지 없음';
-            img.className = 'w-full h-full object-cover empty-image-placeholder';
-            img.loading = 'lazy';
+        // 오른쪽 컬럼: 3,4번째 이미지 (2,3번째 인덱스) - 부족하면 빈 이미지로 채우기
+        for (let i = 2; i < 4; i++) {
+            galleryRight.appendChild(this._createGalleryItem(firstFourImages[i], room.name));
         }
-
-        galleryItem.appendChild(img);
-        galleryRight.appendChild(galleryItem);
 
         // 그리드에 추가
         galleryGrid.appendChild(galleryLeft);
@@ -467,13 +460,50 @@ class RoomMapper extends BaseDataMapper {
 
         // 메타 태그 업데이트 (페이지별 SEO 적용)
         const property = this.data.property;
-        const pageSEO = (room?.name && property?.name) ? { title: `${room.name} - ${property.name}` } : null;
+        const pageSEO = {
+            title: (room?.name && property?.name) ? `${room.name} - ${property.name}` : 'SEO 타이틀',
+            description: room?.description || property?.description || 'SEO 설명'
+        };
         this.updateMetaTags(pageSEO);
+
+        // OG 이미지 업데이트 (객실 이미지 사용)
+        this.updateOGImage(room);
 
         // E-commerce registration 매핑
         this.mapEcommerceRegistration();
     }
 
+
+    /**
+     * OG 이미지 업데이트 (객실 이미지 사용, 없으면 로고)
+     * @param {Object} room - 현재 객실 데이터
+     */
+    updateOGImage(room) {
+        if (!this.isDataLoaded || !room) return;
+
+        const ogImage = this.safeSelect('meta[property="og:image"]');
+        if (!ogImage) return;
+
+        // room.images[0]에서 thumbnail, interior, exterior 순으로 첫 번째 이미지 찾기
+        const imageSources = [
+            room.images?.[0]?.thumbnail,
+            room.images?.[0]?.interior,
+            room.images?.[0]?.exterior,
+        ];
+
+        const firstImageArray = imageSources.find(arr => Array.isArray(arr) && arr.length > 0);
+        const imageUrl = firstImageArray?.[0]?.url;
+
+        // 우선순위: 객실 이미지 > 로고 이미지
+        if (imageUrl) {
+            ogImage.setAttribute('content', imageUrl);
+        } else {
+            const defaultImage = this.getDefaultOGImage();
+            if (defaultImage) {
+                ogImage.setAttribute('content', defaultImage);
+            }
+        }
+    }
 
     /**
      * 네비게이션 함수 설정

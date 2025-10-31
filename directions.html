@@ -12,6 +12,18 @@
     <link rel="preload" href="styles/directions.css" as="style">
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/directions.css">
+  <!-- Open Graph Meta Tags for Social Media -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="여수 플로라호스텔 펜션 - 오시는길" />
+  
+  <meta property="og:image" content="https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/9004319c-c79a-4038-b284-4e68947e6383/thumbnail/1760409859544-jbpiyripqlb.jpg" />
+  <meta property="og:url" content="https://floraps.kr" />
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="여수 플로라호스텔 펜션 - 오시는길" />
+  
+  <meta name="twitter:image" content="https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/9004319c-c79a-4038-b284-4e68947e6383/thumbnail/1760409859544-jbpiyripqlb.jpg" />
 </head>
 <body>
     <div class="directions-page">
@@ -51,8 +63,6 @@
                     <div class="info-grid">
                         <div class="info-content">
                             <div class="address-section">
-                                <h3>네비게이션 이용 시</h3>
-
                                 <div class="address-item">
                                     <svg class="address-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -63,8 +73,8 @@
                                         <p data-directions-road-address></p>
                                     </div>
                                 </div>
-
-                                <div class="address-item">
+                                <!-- 향후 지번 주소 활성화 예정 -->
+                                <!-- <div class="address-item">
                                     <svg class="address-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M9 6.75V15m6-6v8.25m.503 3.498l4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 00-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.158.69-.158 1.006 0l4.994 2.497c.317.158.69.158 1.007 0z" />
                                     </svg>
@@ -72,13 +82,19 @@
                                         <p>지번 주소</p>
                                         <p data-directions-lot-address></p>
                                     </div>
-                                </div>
-                            </div>
-
-                            <div class="info-notice">
-                                <p data-directions-notice></p>
+                                </div> -->
                             </div>
                         </div>
+                    </div>
+                </div>
+                <!-- custom information section -->
+                <h2 class="section-title" data-directions-notice-title>안내사항</h2>
+                <div class="address-item mb-8">
+                    <svg class="address-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+                    </svg>
+                    <div class="address-details">
+                        <p data-directions-notice-description></p>
                     </div>
                 </div>
             </div>
