@@ -96,10 +96,8 @@ class HeaderFooterMapper extends BaseDataMapper {
             return;
         }
 
-        // gpension_id 찾기 (여러 경로 시도)
-        const gpensionId = this.data.property.gpension_id ||
-                          this.data.property.gpensionId ||
-                          this.data.gpension_id;
+        // gpension_id 찾기
+        const gpensionId = this.data.property.gpensionId;
 
         if (!gpensionId) {
             return;
@@ -371,6 +369,53 @@ class HeaderFooterMapper extends BaseDataMapper {
         }
     }
 
+    /**
+     * Footer 소셜 링크 매핑
+     * socialLinks가 빈 객체면 전체 섹션 숨김
+     * 값이 있는 링크만 표시
+     */
+    mapSocialLinks() {
+        if (!this.isDataLoaded) return;
+
+        const socialLinks = this.safeGet(this.data, 'homepage.socialLinks') || {};
+        const socialSection = this.safeSelect('[data-social-links-section]');
+
+        // socialLinks가 빈 객체인지 체크
+        const hasSocialLinks = Object.keys(socialLinks).length > 0;
+
+        if (!hasSocialLinks) {
+            // 빈 객체면 전체 섹션 숨김
+            if (socialSection) {
+                socialSection.style.display = 'none';
+            }
+            return;
+        }
+
+        // 소셜 링크가 있으면 섹션 표시
+        if (socialSection) {
+            socialSection.style.display = 'block';
+        }
+
+        // 소셜 링크 설정 객체와 루프를 사용한 매핑
+        const socialLinkConfig = [
+            { type: 'instagram', selector: '[data-social-instagram]' },
+            { type: 'facebook', selector: '[data-social-facebook]' },
+            { type: 'blog', selector: '[data-social-blog]' }
+        ];
+
+        socialLinkConfig.forEach(({ type, selector }) => {
+            const linkElement = this.safeSelect(selector);
+            if (linkElement) {
+                if (socialLinks[type]) {
+                    linkElement.href = socialLinks[type];
+                    linkElement.style.display = 'flex';
+                } else {
+                    linkElement.style.display = 'none';
+                }
+            }
+        });
+    }
+
     // ============================================================================
     // 🔄 TEMPLATE METHODS IMPLEMENTATION
     // ============================================================================
@@ -404,6 +449,7 @@ class HeaderFooterMapper extends BaseDataMapper {
         // Footer 매핑
         this.mapFooterLogo();
         this.mapFooterInfo();
+        this.mapSocialLinks();
 
         // E-commerce registration 매핑
         this.mapEcommerceRegistration();
