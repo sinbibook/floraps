@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.3.0",
-    "generatedAt": "2025-11-04T01:38:53.058Z",
+    "version": "1.4.0",
+    "generatedAt": "2025-11-04T07:36:10.053Z",
     "templateType": "full_banner_image_simple",
     "propertyId": "9004319c-c79a-4038-b284-4e68947e6383",
     "homepageId": "d2ed0936-b47c-4f65-9c46-37cc29138d13"
@@ -140,7 +140,7 @@
         "name": "서비스",
         "description": "[엘리베이터] \n[전기차 충전소]",
         "usageGuide": "- 펜션에 엘리베이터와 전기차 충전기가 설치되어 있어 편리한 이용 가능합니다.\n- 넓은 주차장이 있어 승용차 기준 20대 이상  주차 가능 ",
-        "displayOrder": 0,
+        "displayOrder": 1,
         "images": [
           {
             "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/fe4ba7d4-69d5-4835-b81e-1592364e0fbe/main/1760429996523-zjmzu2ipluc.jpg",
@@ -161,7 +161,7 @@
         "name": "주변 관광지",
         "description": "펜션 인근에 위치한 만성리 검은모래해변을 즐겨보세요 .",
         "usageGuide": "[ 주변 관광지 안내 ]  \n① 만성리 해수욕장(상시개방) 도보15분, 차량 1분 (1km)\n② 모사금 해수욕장(상시개방) 3km.\n③ 녹테마레(미디어 전시관) 700m\n④ 오동도 4.5km.\n⑤ 여수 해상케이블카(주차타워) 4.1km.\n⑥ 엑스포 해양공원 3.2km.\n⑦ 진남관 3.6km.\n⑧ 이순신광장(중앙동 일대) 3.9km.\n⑨ 하멜등대 및 낭만포차거리 4.4km.\n⑩ 아쿠아 플라넷 3.4km.\n⑪ 미평 산림욕장(수원지 데크길)3km.\n⑫ 교동시장 6.6km.",
-        "displayOrder": 0,
+        "displayOrder": 2,
         "images": [
           {
             "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/37b2ae12-de9b-462a-b02f-73d13f28d4ce/main/1760602137573-v1negzxkfiq.jpg",
@@ -328,7 +328,8 @@
     ],
     "nameEn": "Yeosu FloraHostel Pension",
     "domain": "floraps.kr",
-    "gpensionId": "9629"
+    "realtimeBookingId": "9629",
+    "ybsId": ""
   },
   "rooms": [
     {
@@ -450,7 +451,8 @@
           ],
           "exterior": []
         }
-      ]
+      ],
+      "displayOrder": 0
     },
     {
       "id": "cef0751d-8fd0-4181-9c10-26a3799afcb4",
@@ -577,7 +579,8 @@
           ],
           "exterior": []
         }
-      ]
+      ],
+      "displayOrder": 1
     },
     {
       "id": "9d5ff9fc-6b40-460e-88e5-486c47db6105",
@@ -691,7 +694,8 @@
           ],
           "exterior": []
         }
-      ]
+      ],
+      "displayOrder": 2
     },
     {
       "id": "705625f7-89ee-4dd4-ad8d-cc8605833fe0",
@@ -791,7 +795,8 @@
           ],
           "exterior": []
         }
-      ]
+      ],
+      "displayOrder": 3
     },
     {
       "id": "fc45b155-ce83-40a2-977d-662210b32e6a",
@@ -891,7 +896,8 @@
           ],
           "exterior": []
         }
-      ]
+      ],
+      "displayOrder": 4
     }
   ],
   "homepage": {
