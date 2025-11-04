@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.2.0",
-    "generatedAt": "2025-11-03T06:42:12.080Z",
+    "version": "1.3.0",
+    "generatedAt": "2025-11-04T01:38:53.058Z",
     "templateType": "full_banner_image_simple",
     "propertyId": "9004319c-c79a-4038-b284-4e68947e6383",
     "homepageId": "d2ed0936-b47c-4f65-9c46-37cc29138d13"
@@ -328,7 +328,7 @@
     ],
     "nameEn": "Yeosu FloraHostel Pension",
     "domain": "floraps.kr",
-    "gpensionId": "flora1"
+    "gpensionId": "9629"
   },
   "rooms": [
     {
