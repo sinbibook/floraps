@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.6.0",
-    "generatedAt": "2025-11-18T02:53:20.486Z",
+    "version": "1.7.0",
+    "generatedAt": "2025-12-26T03:26:50.785Z",
     "templateType": "full_banner_image_simple",
     "propertyId": "9004319c-c79a-4038-b284-4e68947e6383",
     "homepageId": "d2ed0936-b47c-4f65-9c46-37cc29138d13"
@@ -51,9 +51,9 @@
       "representativeName": "유봉길",
       "businessAddress": "전라남도 여수시 만성로 368",
       "businessPhone": "",
-      "businessEmail": "사업장 이메일",
-      "businessType": "individual",
-      "businessCategory": null,
+      "businessEmail": "",
+      "businessType": "",
+      "businessCategory": "",
       "eCommerceRegistrationNumber": ""
     },
     "contractInfo": {
@@ -381,6 +381,7 @@
       "roomStructures": [
         "테라스"
       ],
+      "status": "active",
       "images": [
         {
           "thumbnail": [
@@ -503,6 +504,7 @@
       "roomStructures": [
         "테라스"
       ],
+      "status": "active",
       "images": [
         {
           "thumbnail": [
@@ -633,6 +635,7 @@
       "roomStructures": [
         "테라스"
       ],
+      "status": "active",
       "images": [
         {
           "thumbnail": [
@@ -749,6 +752,7 @@
       "roomStructures": [
         "테라스"
       ],
+      "status": "active",
       "images": [
         {
           "thumbnail": [
@@ -851,6 +855,7 @@
       "roomStructures": [
         "테라스"
       ],
+      "status": "active",
       "images": [
         {
           "thumbnail": [
@@ -937,7 +942,7 @@
     ],
     "seo": {
       "title": "여수 플로라호스텔 펜션",
-      "description": "",
+      "description": "휴식과 힐링을 느낄 수 있는 이곳, 여수 플로라호스텔 펜션 입니다. ",
       "keywords": "여수,여수펜션,여수숙소,여수여행,여수만성리해수욕장"
     },
     "socialLinks": {},
