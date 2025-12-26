@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "version": "1.7.0",
-    "generatedAt": "2025-12-26T03:26:50.785Z",
-    "templateType": "full_banner_image_simple",
+    "version": "1.8.0",
+    "generatedAt": "2025-12-26T03:55:23.814Z",
+    "templateType": "full_banner_image",
     "propertyId": "9004319c-c79a-4038-b284-4e68947e6383",
     "homepageId": "d2ed0936-b47c-4f65-9c46-37cc29138d13"
   },
@@ -926,7 +926,7 @@
   ],
   "homepage": {
     "domain": "floraps.kr",
-    "templateType": "full_banner_image_simple",
+    "templateType": "full_banner_image",
     "images": [
       {
         "logo": [
