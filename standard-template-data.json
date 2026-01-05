@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.10.0",
-    "generatedAt": "2025-12-29T01:24:36.186Z",
+    "version": "1.11.0",
+    "generatedAt": "2026-01-05T02:27:13.468Z",
     "templateType": "full_banner_image",
     "propertyId": "9004319c-c79a-4038-b284-4e68947e6383",
     "homepageId": "d2ed0936-b47c-4f65-9c46-37cc29138d13"
@@ -227,7 +227,7 @@
       }
     ],
     "refundSettings": {
-      "customerRefundNotice": "이용일 5일전 취소시 : 90% 환불\n이용일 4일전 취소시 : 80% 환불\n이용일 3일전 취소시 : 70% 환불\n이용일 2일전 취소시 : 50% 환불\n이용일 1일전 취소시 : 30% 환불\n이용일 0일전 ~ 당일 취소시 : 환불 불가\n＊ 2박 이상의 연박 예약 시, 환불규정은 최초 이용일 기준으로 적용됩니다.",
+      "customerRefundNotice": "",
       "immediateRefundEnabled": false,
       "immediateRefundTimeLimit": "60"
     },
@@ -1313,6 +1313,9 @@
             }
           ]
         }
+      },
+      "popup": {
+        "popups": []
       }
     }
   }
