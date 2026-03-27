@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "version": "1.16.0",
-    "generatedAt": "2026-01-27T06:02:04.015Z",
-    "templateType": "full_banner_image",
+    "version": "1.17.0",
+    "generatedAt": "2026-03-27T07:27:41.440Z",
+    "templateType": "full_banner_conveyer",
     "propertyId": "9004319c-c79a-4038-b284-4e68947e6383",
     "homepageId": "d2ed0936-b47c-4f65-9c46-37cc29138d13"
   },
@@ -50,10 +50,10 @@
       "businessNumber": "361-22-00455",
       "representativeName": "유봉길",
       "businessAddress": "전라남도 여수시 만성로 368",
-      "businessPhone": "",
-      "businessEmail": "",
-      "businessType": "",
-      "businessCategory": "",
+      "businessPhone": "010-2650-7250",
+      "businessEmail": "555@sinbibook.com",
+      "businessType": "individual",
+      "businessCategory": "호스텔",
       "eCommerceRegistrationNumber": ""
     },
     "contractInfo": {
@@ -365,6 +365,7 @@
       "name": "1층 (101.106)",
       "description": "원룸형 :  침대룸1+주방+화장실1\n객실 앞 테라스",
       "roomInfo": "추가 구비품목 : 린스. 치약, 하이라이트, 식기류, 전기밥솥\n인원추가요금 : 성인 10,000원, 아동 10,000원, 유아 10,000원\n\n ",
+      "usageGuide": "",
       "group": null,
       "size": 19,
       "baseOccupancy": 2,
@@ -489,6 +490,7 @@
       "name": "1층 (103,105)",
       "description": "원룸형 :  침대룸1+주방+화장실1\n객실 앞 테라스",
       "roomInfo": "추가 구비품목 : 린스. 치약, 하이라이트, 식기류, 전기밥솥\n인원추가요금 : 성인 10,000원, 아동 10,000원, 유아 10,000원",
+      "usageGuide": "인원추가요금 : 성인 10,000원, 아동 10,000원, 유아 10,000원",
       "group": null,
       "size": 33,
       "baseOccupancy": 4,
@@ -619,6 +621,7 @@
       "name": "2층",
       "description": "원룸형 :  침대룸1+주방+화장실1",
       "roomInfo": "추가 구비품목 : 린스. 치약, 하이라이트, 식기류, 전기밥솥\n인원추가요금 : 성인 10,000원, 아동 10,000원, 유아 10,000원",
+      "usageGuide": "인원추가요금 : 성인 10,000원, 아동 10,000원, 유아 10,000원",
       "group": null,
       "size": 20,
       "baseOccupancy": 2,
@@ -736,6 +739,7 @@
       "name": "3층",
       "description": "원룸형 :  침대룸1+주방+화장실1",
       "roomInfo": "추가 구비품목 : 린스. 치약, 하이라이트, 식기류, 전기밥솥\n인원추가요금 : 성인 10,000원, 아동 10,000원, 유아 10,000원",
+      "usageGuide": "인원추가요금 : 성인 10,000원, 아동 10,000원, 유아 10,000원",
       "group": null,
       "size": 33,
       "baseOccupancy": 4,
@@ -839,6 +843,7 @@
       "name": "5층",
       "description": "원룸형 :  침대룸1+주방+화장실1",
       "roomInfo": "추가 구비품목 : 린스. 치약, 하이라이트, 식기류, 전기밥솥\n인원추가요금 : 성인 10,000원, 아동 10,000원, 유아 10,000원",
+      "usageGuide": "인원추가요금 : 성인 10,000원, 아동 10,000원, 유아 10,000원",
       "group": null,
       "size": 33,
       "baseOccupancy": 4,
@@ -940,7 +945,7 @@
   ],
   "homepage": {
     "domain": "floraps.kr",
-    "templateType": "full_banner_image",
+    "templateType": "full_banner_conveyer",
     "images": [
       {
         "logo": [
@@ -966,7 +971,7 @@
           "sections": [
             {
               "hero": {
-                "title": "휴식과 힐링을 느낄 수 있는 이곳",
+                "title": "플로라 호스텔 펜션",
                 "images": [
                   {
                     "id": "7f62264e-75a8-4a80-aecb-80f5afeacad4",
@@ -976,7 +981,7 @@
                     "isSelected": true
                   }
                 ],
-                "description": "플로라 호스텔 펜션으로 놀러오세요 ! "
+                "description": "휴식과 힐링을 느낄 수 있는 이곳"
               },
               "closing": {
                 "title": "Flora Pension ",
