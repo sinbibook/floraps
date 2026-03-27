@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.17.0",
-    "generatedAt": "2026-03-27T07:27:41.440Z",
+    "version": "1.18.0",
+    "generatedAt": "2026-03-27T07:29:30.685Z",
     "templateType": "full_banner_conveyer",
     "propertyId": "9004319c-c79a-4038-b284-4e68947e6383",
     "homepageId": "d2ed0936-b47c-4f65-9c46-37cc29138d13"
@@ -1005,6 +1005,20 @@
                     "sortOrder": 0,
                     "description": "",
                     "isSelected": true
+                  },
+                  {
+                    "id": "043ab1e8-313a-43b2-ad48-2b88c69a3798",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/d2ed0936-b47c-4f65-9c46-37cc29138d13/index_essence/1774596563577-eqx3cc1m7u.jpg",
+                    "sortOrder": 1,
+                    "description": "",
+                    "isSelected": true
+                  },
+                  {
+                    "id": "2a50d980-c6c0-41d6-a342-c348447122e9",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/d2ed0936-b47c-4f65-9c46-37cc29138d13/index_essence/1774596563578-fstdxx5r26a.jpg",
+                    "sortOrder": 2,
+                    "description": "",
+                    "isSelected": true
                   }
                 ],
                 "description": "소중한 여행 그리고 휴식을 즐겨보세요"
@@ -1929,6 +1943,7 @@
           ]
         }
       ]
-    }
+    },
+    "id": "d2ed0936-b47c-4f65-9c46-37cc29138d13"
   }
 }
