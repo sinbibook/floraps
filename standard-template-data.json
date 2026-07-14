@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.23.0",
-    "generatedAt": "2026-07-10T05:24:49.394771164Z",
+    "version": "1.24.0",
+    "generatedAt": "2026-07-14T10:20:20.468898965Z",
     "templateType": "full_banner_conveyer",
     "propertyId": "9004319c-c79a-4038-b284-4e68947e6383",
     "homepageId": "d2ed0936-b47c-4f65-9c46-37cc29138d13"
@@ -14,7 +14,7 @@
     "address": "전남 여수시 만성로 368 (만흥동) 여수 플로라호스텔 펜션",
     "latitude": 34.7746142596465,
     "longitude": 127.733933964432,
-    "contactPhone": "010-2650-7250",
+    "contactPhone": "010-5652-2662",
     "contactEmail": "555@sinbibook.com",
     "checkin": "15:00",
     "checkout": "11:00",
@@ -3137,8 +3137,8 @@
       "title": "여수 플로라호스텔 펜션",
       "description": "휴식과 힐링을 느낄 수 있는 이곳, 여수 플로라호스텔 펜션 입니다. ",
       "keywords": "여수,여수펜션,여수숙소,여수여행,여수만성리해수욕장",
-      "naverSiteVerification": null,
-      "googleSiteVerification": null
+      "naverSiteVerification": "",
+      "googleSiteVerification": ""
     },
     "socialLinks": {
       "facebook": null,
@@ -3604,6 +3604,12 @@
               }
             }
           ]
+        },
+        "layoutMap": {
+          "sections": [ ]
+        },
+        "nearbyAttractions": {
+          "sections": [ ]
         }
       },
       "popup": {
@@ -3639,8 +3645,8 @@
             "category": "property_exterior"
           },
           {
-            "id": "1173319f-6846-4baf-83a5-a42977950e4d",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/d2ed0936-b47c-4f65-9c46-37cc29138d13/property_exterior/1769043867201-i34vgqj4e37.jpg",
+            "id": "27810834-92f5-4663-ae7b-625a1d1da5bd",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/d2ed0936-b47c-4f65-9c46-37cc29138d13/property_exterior/1784024416804-ylqteu3rl1.jpg",
             "sortOrder": 2,
             "description": "",
             "isSelected": true,
