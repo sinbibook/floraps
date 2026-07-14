@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.24.0",
-    "generatedAt": "2026-07-14T10:20:20.468898965Z",
+    "version": "1.25.0",
+    "generatedAt": "2026-07-14T10:21:26.726836918Z",
     "templateType": "full_banner_conveyer",
     "propertyId": "9004319c-c79a-4038-b284-4e68947e6383",
     "homepageId": "d2ed0936-b47c-4f65-9c46-37cc29138d13"
@@ -3171,9 +3171,17 @@
                     "blockId": null
                   },
                   {
+                    "id": "a910aff0-cea1-4b5a-8489-db57e23f4d5b",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/d2ed0936-b47c-4f65-9c46-37cc29138d13/index_hero/1784024483580-ba3dfemube.jpg",
+                    "sortOrder": 2,
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
+                  },
+                  {
                     "id": "974bda5e-3ef5-4331-8593-4d845bc06f2f",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/d2ed0936-b47c-4f65-9c46-37cc29138d13/index_hero/1774596871100-rdn70i1eab.jpg",
-                    "sortOrder": 2,
+                    "sortOrder": 3,
                     "description": "",
                     "isSelected": true,
                     "blockId": null
@@ -3181,7 +3189,7 @@
                   {
                     "id": "3140a194-b850-43ef-ad6d-8f7364179ca2",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/d2ed0936-b47c-4f65-9c46-37cc29138d13/index_hero/1774596871100-mcvgv0ojvsh.jpg",
-                    "sortOrder": 3,
+                    "sortOrder": 4,
                     "description": "",
                     "isSelected": true,
                     "blockId": null
@@ -3189,7 +3197,7 @@
                   {
                     "id": "31ba6c84-ea13-4841-9e4b-8a667e866ae3",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/d2ed0936-b47c-4f65-9c46-37cc29138d13/index_hero/1774596871100-1i9e6ksqjan.jpg",
-                    "sortOrder": 4,
+                    "sortOrder": 5,
                     "description": "",
                     "isSelected": true,
                     "blockId": null
@@ -3197,14 +3205,14 @@
                   {
                     "id": "7f62264e-75a8-4a80-aecb-80f5afeacad4",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/d2ed0936-b47c-4f65-9c46-37cc29138d13/index_hero/1760604408513-6uqwdi0u8hd.jpg",
-                    "sortOrder": 5,
+                    "sortOrder": 6,
                     "description": "",
                     "isSelected": true,
                     "blockId": null
                   }
                 ],
-                "description": "휴식과 힐링을 느낄 수 있는 이곳",
-                "videos": [ ]
+                "videos": [ ],
+                "description": "휴식과 힐링을 느낄 수 있는 이곳"
               },
               "closing": {
                 "title": "Flora Pension ",
