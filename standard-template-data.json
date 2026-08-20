@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.31.0",
-    "generatedAt": "2026-08-20T05:34:59.769140941Z",
+    "version": "1.32.0",
+    "generatedAt": "2026-08-20T05:35:36.212988420Z",
     "templateType": "full_banner_conveyer",
     "propertyId": "9004319c-c79a-4038-b284-4e68947e6383",
     "homepageId": "d2ed0936-b47c-4f65-9c46-37cc29138d13"
@@ -3339,7 +3339,7 @@
                     {
                       "id": "3cb16964-c1c3-42bc-939c-2836cf73403e",
                       "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/d2ed0936-b47c-4f65-9c46-37cc29138d13/main_about/1787204096654-58uky82cl2.jpg",
-                      "sortOrder": 2,
+                      "sortOrder": 1,
                       "description": "",
                       "isSelected": true,
                       "blockId": "5b56fe33-45dc-4e49-857e-2376cf680645"
@@ -3347,6 +3347,21 @@
                   ],
                   "blockId": "5b56fe33-45dc-4e49-857e-2376cf680645",
                   "description": "따뜻한 조명 아래 마주 앉아\n맛있는 음식과 이야기를 나누는 시간,\n평범한 저녁도 특별한 여행의 순간이 됩니다."
+                },
+                {
+                  "title": "Beach",
+                  "images": [
+                    {
+                      "id": "b827eac8-9aa8-4b5e-81ff-825da8793944",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/d2ed0936-b47c-4f65-9c46-37cc29138d13/main_about/1787204133967-7qwmqbwp45.jpg",
+                      "sortOrder": 2,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "f9cf6011-4320-4244-b570-a83ccdf0d2f1"
+                    }
+                  ],
+                  "blockId": "f9cf6011-4320-4244-b570-a83ccdf0d2f1",
+                  "description": "푸른 바다와 부드러운 모래사장이 어우러진 곳에서\n산책과 함께 여행의 여유를 느껴보세요."
                 }
               ]
             }
