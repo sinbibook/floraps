@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.30.0",
-    "generatedAt": "2026-08-20T05:28:55.203290393Z",
+    "version": "1.31.0",
+    "generatedAt": "2026-08-20T05:34:59.769140941Z",
     "templateType": "full_banner_conveyer",
     "propertyId": "9004319c-c79a-4038-b284-4e68947e6383",
     "homepageId": "d2ed0936-b47c-4f65-9c46-37cc29138d13"
@@ -3307,65 +3307,9 @@
                 "title": "About",
                 "images": [
                   {
-                    "id": "6451a1b0-6519-4a72-94c1-b01c261b1c7e",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/d2ed0936-b47c-4f65-9c46-37cc29138d13/main_hero/1760605007675-81lf5pory95.jpg",
+                    "id": "fe03eeab-0c24-48a6-a4b8-620ea4dc6508",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/d2ed0936-b47c-4f65-9c46-37cc29138d13/main_hero/1787204096762-x37xmctdit.jpg",
                     "sortOrder": 0,
-                    "description": "",
-                    "isSelected": true,
-                    "blockId": null
-                  },
-                  {
-                    "id": "4ee1e603-97b3-45a2-9e02-3fa85def84bd",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/d2ed0936-b47c-4f65-9c46-37cc29138d13/main_hero/1760605007675-2cqli6tfobz.jpg",
-                    "sortOrder": 1,
-                    "description": "",
-                    "isSelected": true,
-                    "blockId": null
-                  },
-                  {
-                    "id": "d316c391-0ea1-40d6-9b3c-f0d01f7d7ee6",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/d2ed0936-b47c-4f65-9c46-37cc29138d13/main_hero/1760605007675-7sn0n4xq73f.jpg",
-                    "sortOrder": 2,
-                    "description": "",
-                    "isSelected": true,
-                    "blockId": null
-                  },
-                  {
-                    "id": "39909a8b-7bc7-4c26-9c57-52b15984366e",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/d2ed0936-b47c-4f65-9c46-37cc29138d13/main_hero/1760605007676-ole8pqs1zm.jpg",
-                    "sortOrder": 3,
-                    "description": "",
-                    "isSelected": true,
-                    "blockId": null
-                  },
-                  {
-                    "id": "834eaddc-bbb0-4a29-b63f-16d3b406fe3d",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/d2ed0936-b47c-4f65-9c46-37cc29138d13/main_hero/1760605007676-yub4jmqz8h.jpg",
-                    "sortOrder": 4,
-                    "description": "",
-                    "isSelected": true,
-                    "blockId": null
-                  },
-                  {
-                    "id": "a6456bcc-3d37-4bbf-b234-1901a8ca72c2",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/d2ed0936-b47c-4f65-9c46-37cc29138d13/main_hero/1760605007676-agt27dle8g7.jpg",
-                    "sortOrder": 5,
-                    "description": "",
-                    "isSelected": true,
-                    "blockId": null
-                  },
-                  {
-                    "id": "8e558177-2de6-45a7-8821-eeb6a49e10b4",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/d2ed0936-b47c-4f65-9c46-37cc29138d13/main_hero/1760605007676-vthwhb5w0e.jpg",
-                    "sortOrder": 6,
-                    "description": "",
-                    "isSelected": true,
-                    "blockId": null
-                  },
-                  {
-                    "id": "df49dbd5-d53d-4a08-a917-5c32cf621098",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/d2ed0936-b47c-4f65-9c46-37cc29138d13/main_hero/1760605007676-u77jaxvif4r.jpg",
-                    "sortOrder": 7,
                     "description": "",
                     "isSelected": true,
                     "blockId": null
@@ -3378,17 +3322,9 @@
                   "title": "Flora Pension",
                   "images": [
                     {
-                      "id": "6b9b8b17-fe6d-433b-b8e4-a2007391e277",
-                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/d2ed0936-b47c-4f65-9c46-37cc29138d13/main_about/1760605007676-02rm4o2q4ecs.jpg",
+                      "id": "6001c219-4cd3-421e-ac14-fd86fa1e7970",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/d2ed0936-b47c-4f65-9c46-37cc29138d13/main_about/1787204096654-clsa4y90iu.jpg",
                       "sortOrder": 0,
-                      "description": "",
-                      "isSelected": true,
-                      "blockId": "b31f4669-b884-43e2-b8da-8af83ceadb8a"
-                    },
-                    {
-                      "id": "5128b2a5-9ce8-42bc-918d-5dbc4b77fa98",
-                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/d2ed0936-b47c-4f65-9c46-37cc29138d13/main_about/1760605007676-q8fyfhvjmi.jpg",
-                      "sortOrder": 1,
                       "description": "",
                       "isSelected": true,
                       "blockId": "b31f4669-b884-43e2-b8da-8af83ceadb8a"
@@ -3396,6 +3332,21 @@
                   ],
                   "blockId": "b31f4669-b884-43e2-b8da-8af83ceadb8a",
                   "description": "여수 플로라펜션에서 편안한 휴식과 즐거움, 추억을 선물해 드립니다.\n"
+                },
+                {
+                  "title": "BBQ Party",
+                  "images": [
+                    {
+                      "id": "3cb16964-c1c3-42bc-939c-2836cf73403e",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/d2ed0936-b47c-4f65-9c46-37cc29138d13/main_about/1787204096654-58uky82cl2.jpg",
+                      "sortOrder": 2,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "5b56fe33-45dc-4e49-857e-2376cf680645"
+                    }
+                  ],
+                  "blockId": "5b56fe33-45dc-4e49-857e-2376cf680645",
+                  "description": "따뜻한 조명 아래 마주 앉아\n맛있는 음식과 이야기를 나누는 시간,\n평범한 저녁도 특별한 여행의 순간이 됩니다."
                 }
               ]
             }
