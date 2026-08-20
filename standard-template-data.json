@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.36.0",
-    "generatedAt": "2026-08-20T05:53:32.471948022Z",
+    "version": "1.37.0",
+    "generatedAt": "2026-08-20T06:03:43.409101991Z",
     "templateType": "full_banner_conveyer",
     "propertyId": "9004319c-c79a-4038-b284-4e68947e6383",
     "homepageId": "d2ed0936-b47c-4f65-9c46-37cc29138d13"
@@ -20,7 +20,7 @@
     "checkin": "15:00",
     "checkout": "11:00",
     "checkInOutInfo": "[입퇴실안내]\n- 입실: 15시 00분\n- 퇴실: 11시 00분\n- 입실 마감시간: 22시 00분\n※ 원활한 청소 시간을 위해 입.퇴실 시간은 꼭 지켜주세요\n※ 22시 이후 입실 시 사전 문의 필수",
-    "usageGuide": "※ 실 금액은 기준 인원 금액이며 기준 인원 초과 시 추가 요금 발생\n※ 당일 예약 후 당일 이용(22시 이후 입실) 시 확정 예약 아님, 반드시 사전 문의 필요\n※ 객실 내 휴대용 가스버너 사용 불가\n\n[입퇴실안내]\n- 입실: 15시 00분\n- 퇴실: 11시 00분\n- 입실 마감시간: 22시 00분\n※ 원활한 청소 시간을 위해 입.퇴실 시간은 꼭 지켜주세요\n※ 22시 이후 입실 시 사전 문의 필수\n\n[인원추가요금]\n- 24개월 미만은 무료이나 인원에는 포함\n- 1박기준/현장결제\n\n[공용바베큐]\n- 이용 객실: 전 객실\n- 이용 장소: 1층 객실 앞 테라스 / 공용바베큐장\n- 바베큐 형태: 숯불\n- 이용 요금: 숯+그릴 25,000원 (1박기준/현장결제)\n- 이용 시간: 17:00~22:00\n※ 항아리 바베큐 이용 시 사전 유선 상담 필수 (이용요금 30,000원 현장결제)\n\n[애견동반]\n※ 반려견 동반은 펜션으로 유선 문의 필요\n\n[편의 및 주변 시설]\n- 전 객실 와이파이 보유\n- 엘리베이터 보유\n\n[주차장]\n- 주차장 보유\n- 주차 대수: 20대 이상 주차 가능 / 관광버스 주차 가능(후진 진입 필요)\n- 전기차 충전기 이용 가능\n\n[픽업]\n- 제공 픽업: 입실만\n- 픽업 서비스는 객실당 1회 제공됩니다.\n- 픽업 장소 및 시간은 사전에 펜션으로 연락하여 협의해 주시기 바랍니다.\n\n[교통편]\n- 네비에 플로라호스텔펜션 또는 주소를 검색해주세요",
+    "usageGuide": "[공지사항]\n※ 실 금액은 기준 인원 금액이며 기준 인원 초과 시 추가 요금 발생\n※ 당일 예약 후 당일 이용(22시 이후 입실) 시 확정 예약 아님, 반드시 사전 문의 필요\n※ 객실 내 휴대용 가스버너 사용 불가\n\n[입퇴실안내]\n- 입실: 15시 00분\n- 퇴실: 11시 00분\n- 입실 마감시간: 22시 00분\n※ 원활한 청소 시간을 위해 입.퇴실 시간은 꼭 지켜주세요\n※ 22시 이후 입실 시 사전 문의 필수\n\n[인원추가정보]\n[연령기준]\n- 성인: 8세 이상\n- 아동: 24개월 이상~8세 미만\n- 유아: 24개월 미만\n\n[추가요금]\n- 결제방법: 후결제(현장결제)\n- 24개월 미만은 무료이나 인원에는 포함\n- 1박기준/현장결제\n\n[공용바베큐]\n- 이용 객실: 전 객실\n- 이용 장소: 1층 객실 앞 테라스 / 공용바베큐장\n- 바베큐 형태: 숯불\n- 이용 요금: 숯+그릴 25,000원 (1박기준/현장결제)\n- 이용 시간: 17:00~22:00\n※ 항아리 바베큐 이용 시 사전 유선 상담 필수 (이용요금 30,000원 현장결제)\n\n[애견동반]\n※ 반려견 동반은 펜션으로 유선 문의 필요\n\n[편의 및 주변 시설]\n- 전 객실 와이파이 보유\n- 엘리베이터 보유\n\n[주차장]\n- 주차장 보유\n- 주차 대수: 20대 이상 주차 가능 / 관광버스 주차 가능(후진 진입 필요)\n- 전기차 충전기 이용 가능\n\n[픽업]\n- 제공 픽업: 입실만\n- 픽업 서비스는 객실당 1회 제공됩니다.\n- 픽업 장소 및 시간은 사전에 펜션으로 연락하여 협의해 주시기 바랍니다.\n\n[교통편]\n- 네비에 플로라호스텔펜션 또는 주소를 검색해주세요",
     "reservationGuide": "※ 실 금액은 기준 인원 금액이며 기준 인원 초과 시 추가 요금 발생\n※ 당일 예약 후 당일 이용(22시 이후 입실) 시 확정 예약 아님, 반드시 사전 문의 필요\n※ 객실 내 휴대용 가스버너 사용 불가",
     "province": "전라남도",
     "city": "여수시",
@@ -276,7 +276,7 @@
           {
             "id": "99239dd8-9157-4a41-b5c7-aea8123cf4bd",
             "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/08/18/3jSKsCycxg1M.jpg",
-            "sortOrder": 0,
+            "sortOrder": 5,
             "description": "",
             "isSelected": true,
             "blockId": null
@@ -286,7 +286,7 @@
           {
             "id": "c7b79389-404c-4a05-ba32-29d85b9a4792",
             "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/08/18/p6mhUwj35RLl.jpg",
-            "sortOrder": 0,
+            "sortOrder": 6,
             "description": "",
             "isSelected": true,
             "blockId": null
@@ -294,7 +294,7 @@
           {
             "id": "0ec94403-748e-4006-a14f-9b1877edc366",
             "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/08/18/p2zZQTo49Rc1.jpg",
-            "sortOrder": 1,
+            "sortOrder": 8,
             "description": "",
             "isSelected": true,
             "blockId": null
@@ -302,7 +302,7 @@
           {
             "id": "b07ab8be-f578-4005-a92f-f3d67bfec984",
             "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/08/18/lYEjCt0KMmak.jpg",
-            "sortOrder": 2,
+            "sortOrder": 9,
             "description": "",
             "isSelected": true,
             "blockId": null
@@ -310,7 +310,7 @@
           {
             "id": "3916148f-7887-4964-807f-1ffe45b5b5b0",
             "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/08/18/2ApbjMSxiQwl.jpg",
-            "sortOrder": 3,
+            "sortOrder": 10,
             "description": "",
             "isSelected": true,
             "blockId": null
@@ -318,7 +318,7 @@
           {
             "id": "39028a4c-bbed-492a-8642-93ca7b52144f",
             "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/08/18/dIZpRLNEjvkm.jpg",
-            "sortOrder": 4,
+            "sortOrder": 11,
             "description": "",
             "isSelected": true,
             "blockId": null
@@ -326,7 +326,7 @@
           {
             "id": "339ee921-8273-40b1-bc47-e6951db5bb7b",
             "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/08/18/aKGNLs5Un9r3.jpg",
-            "sortOrder": 5,
+            "sortOrder": 12,
             "description": "",
             "isSelected": true,
             "blockId": null
@@ -334,7 +334,7 @@
           {
             "id": "5f704de1-a9a8-44e3-9ca6-9ccc9f85fdae",
             "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/08/18/gaV7YzpOr3XM.jpg",
-            "sortOrder": 6,
+            "sortOrder": 13,
             "description": "",
             "isSelected": true,
             "blockId": null
@@ -342,7 +342,7 @@
           {
             "id": "67cdf68c-fd0a-4bb0-921a-f894c3d67c1e",
             "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/08/18/uQNOKCtBL3ri.jpg",
-            "sortOrder": 7,
+            "sortOrder": 14,
             "description": "",
             "isSelected": true,
             "blockId": null
@@ -350,7 +350,7 @@
           {
             "id": "c3220b9d-9717-41cd-b579-9aeffe381e84",
             "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/08/18/JBHWi4Fg3r5y.jpg",
-            "sortOrder": 8,
+            "sortOrder": 15,
             "description": "",
             "isSelected": true,
             "blockId": null
@@ -3503,7 +3503,39 @@
           "sections": [ ]
         },
         "layoutMap": {
-          "sections": [ ]
+          "sections": [
+            {
+              "hero": {
+                "title": "",
+                "images": [
+                  {
+                    "id": "b25fb613-3497-4982-a246-89f3b8256773",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/d2ed0936-b47c-4f65-9c46-37cc29138d13/layout_map_hero/1787205820502-gsuuipyqd6.jpg",
+                    "sortOrder": 0,
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
+                  }
+                ],
+                "description": ""
+              },
+              "about": {
+                "title": "ROOM PREVIEW",
+                "images": [
+                  {
+                    "id": "87a9fb01-0abf-4311-917e-a759d487b472",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/d2ed0936-b47c-4f65-9c46-37cc29138d13/layout_map_about/1787205820504-npoxqufjx0.jpg",
+                    "sortOrder": 0,
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
+                  }
+                ],
+                "description": " "
+              },
+              "enabled": true
+            }
+          ]
         }
       },
       "popup": {
