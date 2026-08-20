@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.29.0",
-    "generatedAt": "2026-08-20T05:27:50.655432812Z",
+    "version": "1.30.0",
+    "generatedAt": "2026-08-20T05:28:55.203290393Z",
     "templateType": "full_banner_conveyer",
     "propertyId": "9004319c-c79a-4038-b284-4e68947e6383",
     "homepageId": "d2ed0936-b47c-4f65-9c46-37cc29138d13"
@@ -3130,8 +3130,8 @@
                 "title": "Flora Pension ",
                 "images": [
                   {
-                    "id": "4e85f0b9-22db-4c5e-b574-7a2d83eb490c",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/d2ed0936-b47c-4f65-9c46-37cc29138d13/index_closing/1760604197990-91x54sj3w9v.jpg",
+                    "id": "66bb8885-fd44-47ae-a890-4e954793124e",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/d2ed0936-b47c-4f65-9c46-37cc29138d13/index_closing/1787203731142-7x38lzm67y.jpg",
                     "sortOrder": 0,
                     "description": "",
                     "isSelected": true,
