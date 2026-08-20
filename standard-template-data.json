@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.35.0",
-    "generatedAt": "2026-08-20T05:52:30.253731994Z",
+    "version": "1.36.0",
+    "generatedAt": "2026-08-20T05:53:32.471948022Z",
     "templateType": "full_banner_conveyer",
     "propertyId": "9004319c-c79a-4038-b284-4e68947e6383",
     "homepageId": "d2ed0936-b47c-4f65-9c46-37cc29138d13"
@@ -3473,10 +3473,10 @@
                 "title": " ",
                 "images": [
                   {
-                    "id": "145bc1ec-b7b9-45d4-827e-9fce4fbba79e",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/d2ed0936-b47c-4f65-9c46-37cc29138d13/reservation_hero/1760601507841-lhqja8iuldh.jpg",
+                    "id": "97642ae5-9bec-4a9b-a432-f3788aaf0b78",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/d2ed0936-b47c-4f65-9c46-37cc29138d13/reservation_hero/1787205209125-panrhiwelk.jpg",
                     "sortOrder": 0,
-                    "description": "  ",
+                    "description": "",
                     "isSelected": true,
                     "blockId": null
                   }
